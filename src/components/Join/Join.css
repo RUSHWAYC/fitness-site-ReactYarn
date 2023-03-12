@@ -53,3 +53,19 @@
   background-color: var(--orange);
   color: white;
 }
+
+@media screen and (max-width: 768px) {
+  .join {
+    flex-direction: column;
+    grid-template: 1rem;
+  }
+
+  .left-j {
+    font-size: x-large;
+    flex-direction: column;
+  }
+
+  .right-j {
+    padding: 2rem;
+  }
+}
